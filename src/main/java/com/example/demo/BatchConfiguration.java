@@ -172,7 +172,7 @@ public class BatchConfiguration {
 	
 	
 	private String fileNameWithTimeStamp(String filename) {
-		return filename + timestamp;
+		return filename + timestamp + ".csv";
 	}
 
 }
